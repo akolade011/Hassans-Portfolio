@@ -177,5 +177,10 @@ body {
 
 
 .intro{position:relative;
-  width: 70%;
-bottom: 70px;}
+
+color: white;
+background-color: black;}
+.intro img{width: 50%;
+background-color: white;}
+
+.intro .text{top: 60px;}
