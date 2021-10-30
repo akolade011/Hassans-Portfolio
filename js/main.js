@@ -15,7 +15,7 @@ var getButton = document.querySelector(".navbar-toggler");
       }
     }
     $(function () {
-      showText("#VictoryHouseText", " Front End Developer", 0, 150); 
+      showText("#messgSlide", " Front End Developer", 0, 150); 
     
       
     });
