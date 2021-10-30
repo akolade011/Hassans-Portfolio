@@ -184,3 +184,9 @@ background-color: black;}
 background-color: white;}
 
 .intro .text{top: 60px;}
+
+
+.quoteSection{text-align: center; margin: 0 auto;}
+
+.quoteRow{position: relative;
+    bottom: 70px;}
