@@ -190,3 +190,10 @@ background-color: white;}
 
 .quoteRow{position: relative;
     bottom: 70px;}
+
+
+    .pSection{text-align: center;height: 300px;}
+
+    .pSection h2{font-size: 4em;
+    position: relative;
+top: 30%; }
