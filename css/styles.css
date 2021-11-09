@@ -201,3 +201,10 @@ top: 30%; }
 
 .cvSection{text-align: center;font-size: 1rem;position: relative;top: 40px;}
 .avivSection{text-align: center;font-size: 1rem;position: relative;top: 100px;}
+
+
+
+ .form-control{width: 770px;}
+ button{background-color: transparent;}
+
+ .formSection{position: relative; margin-top: 10%;font-size: 0.9em;}
