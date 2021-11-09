@@ -189,7 +189,7 @@ background-color: white;}
 .quoteSection{text-align: center; margin: 0 auto;}
 
 .quoteRow{position: relative;
-    bottom: 70px;}
+    bottom: 115px;}
 
 
     .pSection{text-align: center;height: 300px;}
@@ -197,3 +197,8 @@ background-color: white;}
     .pSection h2{font-size: 4em;
     position: relative;
 top: 30%; }
+
+
+
+.cvSection{text-align: center;font-size: 1rem;position: relative;top: 40px;}
+.avivSection{text-align: center;font-size: 1rem;position: relative;top: 100px;}
