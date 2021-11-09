@@ -21,3 +21,36 @@ var getButton = document.querySelector(".navbar-toggler");
     });
     
     
+
+
+    //form section
+
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {
+      action: "https://formspree.io/f/xdoyrqkq",
+      title: "How can we help?",
+      fields: [
+        { 
+          type: "email", 
+          label: "Email:", 
+          name: "email",
+          required: true,
+          placeholder: "your@email.com"
+        },
+        {
+          type: "textarea",
+          label: "Message:",
+          name: "message",
+          placeholder: "Enter a Message",
+        },
+        { type: "submit" }      
+      ],
+      styles: {
+        title: {
+          backgroundColor: "gray"
+        },
+        button: {
+          backgroundColor: "gray"
+        }
+      }
+    });
