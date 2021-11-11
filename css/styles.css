@@ -7,7 +7,7 @@ body {
     line-height: 1.5;
     color: #333;
     overflow-x: hidden;
-    font-family: 'Red Hat Mono', monospace;
+    font-family: "Red Hat Mono", monospace;
 }
 
 .v-header {
@@ -57,7 +57,7 @@ body {
     position: relative;
     bottom: 432px;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .navbar-content {
@@ -142,7 +142,6 @@ body {
 }
 
 .btn1 {
-  
     border: none;
     color: black;
     margin-top: 20px;
@@ -175,57 +174,95 @@ body {
     z-index: 2;
 }
 
-
-.intro{position:relative;
-
-color: white;
-background-color: black;}
-.intro img{width: 50%;
-background-color: white;
-}
-
-.intro .text{top: 60px;}
-
-
-.quoteSection{text-align: center; margin: 0 auto;}
-
-.quoteRow{position: relative;
-    bottom: 115px;}
-    .pSection{text-align: center;height: 300px;}
-
-    .pSection h2{font-size: 4em;
+.intro {
     position: relative;
-top: 30%; }
 
-
-
-.cvSection{text-align: center;font-size: 1rem;position: relative;top: 40px;}
-.avivSection{text-align: center;font-size: 1rem;position: relative;top: 100px;}
-
-
-
- .form-control{width: 770px;}
- button{background-color: transparent;}
-
- .formSection{position: relative; margin-top: 10%;font-size: 0.9em;}
-
- .pSection h2{border: dotted;}
-
-
-  .skillsSection h2{
-   border: dotted;
-    text-align: center;
-   font-size: 4em;width: 100%;
- }
-
-.skillsTable{background-color: #327bac;padding: 10%;}
- .skillsIcon{font-size: 6em;}
-
- .table td, .table th {
-    border-top: none ;
- 
+    color: white;
+    background-color: black;
 }
-body > div.skillsSection > h2{
+.intro img {
+    width: 50%;
+    background-color: white;
+}
+.intro p{font-size: 0.8em;}
+
+.intro .text {
+    top: 60px;
+}
+
+.quoteSection {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.quoteRow {
+    position: relative;
+    bottom: 115px;
+}
+.pSection {
+    text-align: center;
+    height: 300px;
+}
+
+.pSection h2 {
+    font-size: 4em;
+    position: relative;
+    top: 30%;
+}
+
+.cvSection {
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    top: 40px;
+}
+.avivSection {
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    top: 100px;
+}
+
+.form-control {
+    width: 770px;
+}
+button {
+    background-color: transparent;
+}
+
+.formSection {
+    position: relative;
+padding-top: 5%;
+padding-bottom: 5%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.formSection h4{text-align: center;padding-bottom: 5%;padding-top: 1%;}
+.pSection h2 {
+    border: dotted;
+}
+
+.skillsSection h2 {
+    border: dotted;
+    text-align: center;
+    font-size: 4em;
+    width: 100%;
+}
+
+.skillsTable {
+    background-color: #327bac;
+    padding: 10%;
+}
+.skillsIcon {
+    font-size: 6em;
+}
+
+.table td,
+.table th {
+    border-top: none;
+}
+body > div.skillsSection > h2 {
     margin-top: 64px;
     margin-bottom: 64px;
 }
