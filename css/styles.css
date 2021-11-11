@@ -142,7 +142,7 @@ body {
 }
 
 .btn1 {
-    background-color: yellow
+  
     border: none;
     color: black;
     margin-top: 20px;
@@ -208,3 +208,12 @@ top: 30%; }
  button{background-color: transparent;}
 
  .formSection{position: relative; margin-top: 10%;font-size: 0.9em;}
+
+ .pSection h2{border: dotted;}
+
+
+  .skillsSection h2{
+   border: dotted;
+    text-align: center;
+   font-size: 4em;width: 100%;
+ }
