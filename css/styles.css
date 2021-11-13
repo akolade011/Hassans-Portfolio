@@ -266,3 +266,11 @@ body > div.skillsSection > h2 {
     margin-top: 64px;
     margin-bottom: 64px;
 }
+
+@media (max-width: 1000.98px) {
+    .intro .text {
+        top: 0px;
+        width:50%;
+    }
+.intro img{width:30%;}
+}
