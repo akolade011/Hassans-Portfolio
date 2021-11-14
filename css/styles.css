@@ -288,11 +288,45 @@ body > div.skillsSection > h2 {
 
 @media (max-width: 500px) {
     body {
-        color: red;
+        /* color: red; */
     }
     .header-content h1 {
         font-size: 1em;
         position: relative;
         top: 50px;
     }
+}
+
+.circle {
+    width: 10%;
+    background: purple;
+    padding-bottom: 10%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: background 0.5s;
+    /*to work on other browers*/
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+#rgbcontainer {
+    margin: 25px auto;
+    max-width: 600px;
+    border: 2px solid black;
+    background-color: rgb(19, 184, 235);
+}
+
+.rgbGame {
+    background-color: rgb(255, 255, 255);
+}
+
+#redColor {
+    color: red;
+}
+#greenColor {
+    color: green;
+}
+#blueColor {
+    color: blue;
 }
