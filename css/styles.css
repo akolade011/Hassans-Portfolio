@@ -272,5 +272,12 @@ body > div.skillsSection > h2 {
         top: 0px;
         width:50%;
     }
-.intro img{width:30%;}
+.intro img{width:30%;}.avivSection{
+top: 10px;
+padding: 10px;
 }
+}
+
+@media (max-width: 500px) {
+ body{color: red;}
+ .header-content h1{font-size: 1em;position: relative;top: 50px;}}
