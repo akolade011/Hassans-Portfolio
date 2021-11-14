@@ -184,7 +184,9 @@ body {
     width: 50%;
     background-color: white;
 }
-.intro p{font-size: 0.8em;}
+.intro p {
+    font-size: 0.8em;
+}
 
 .intro .text {
     top: 60px;
@@ -232,13 +234,16 @@ button {
 
 .formSection {
     position: relative;
-padding-top: 5%;
-padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin: 0 auto;
     text-align: center;
-
 }
-.formSection h4{text-align: center;padding-bottom: 5%;padding-top: 1%;}
+.formSection h4 {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
 .pSection h2 {
     border: dotted;
 }
@@ -270,14 +275,24 @@ body > div.skillsSection > h2 {
 @media (max-width: 1000.98px) {
     .intro .text {
         top: 0px;
-        width:50%;
+        width: 50%;
     }
-.intro img{width:30%;}.avivSection{
-top: 10px;
-padding: 10px;
-}
+    .intro img {
+        width: 30%;
+    }
+    .avivSection {
+        top: 10px;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 500px) {
- body{color: red;}
- .header-content h1{font-size: 1em;position: relative;top: 50px;}}
+    body {
+        color: red;
+    }
+    .header-content h1 {
+        font-size: 1em;
+        position: relative;
+        top: 50px;
+    }
+}

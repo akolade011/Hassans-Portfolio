@@ -16,10 +16,10 @@ getButton.addEventListener("click", function () {
 
   if (curColour === '0') {
     hideheader.style.zIndex = "1"
-}
-else {
-  hideheader.style.zIndex = "0"
-}
+  }
+  else {
+    hideheader.style.zIndex = "0"
+  }
 
 })
 
